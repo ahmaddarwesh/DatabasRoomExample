@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                         arr = userDB.Dao().AllUsers()
                         recyview.layoutManager = LinearLayoutManager(this@MainActivity, LinearLayout.VERTICAL, false)
                         recyview.adapter = adapter(this, arr!!)
-                        Toast.makeText(this@MainActivity, "Gated !", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "Gat it!", Toast.LENGTH_LONG).show()
 
                     } catch (e: Exception) {
                         Toast.makeText(this@MainActivity, "Error ${e.message}", Toast.LENGTH_LONG).show()
